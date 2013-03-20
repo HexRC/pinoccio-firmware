@@ -143,7 +143,7 @@ USB_Descriptor_String_t ProductString =
 	#elif (ARDUINO_MODEL_PID == PINOCCIO_PID)
 		.Header                 = {.Size = USB_STRING_LEN(12), .Type = DTYPE_String},
 
-		.UnicodeString          = L"Pinoccio DFU"
+		.UnicodeString          = L"Observos DFU"
 	#endif
 };
 
